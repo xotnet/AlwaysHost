@@ -1,0 +1,124 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #2d2d2d;
+}
+.home-text {
+  color: rgb(255, 255, 255);
+  width: 300px;
+  height: 128px;
+  font-size: 25px;
+  max-width: auto;
+  min-width: auto;
+  align-self: center;
+  font-style: normal;
+  max-height: auto;
+  min-height: auto;
+  text-align: center;
+  font-weight: 500;
+  line-height: 2;
+}
+.home-text01 {
+  color: rgb(0, 0, 0);
+}
+.home-text02 {
+  color: #dad7d7;
+}
+.home-text03 {
+  color: #d8d8d8;
+}
+.home-text04 {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+.home-text05 {
+  color: #ec0f0f;
+}
+.home-text06 {
+  color: #bd9b40;
+}
+.home-text07 {
+  color: #fafd43;
+}
+.home-text08 {
+  color: #3def3a;
+}
+.home-text09 {
+  color: #38f7f4;
+}
+.home-text10 {
+  color: #113be6;
+}
+.home-text11 {
+  color: #2b2de8;
+}
+.home-text12 {
+  color: #ad21c7;
+}
+.home-text13 {
+  color: #e0dede;
+  margin-top: 40px;
+  line-height: 3;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+.home-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.home-link {
+  color: #f3f3f3;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 60px;
+  border-radius: 8px;
+  padding-right: 60px;
+  text-decoration: none;
+  background-color: #121212;
+}
+.home-link1 {
+  color: rgb(241, 238, 238);
+  text-align: center;
+  margin-left: 60px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  text-decoration: none;
+  background-color: rgb(14, 14, 14);
+}
+@media(max-width: 479px) {
+  .home-text05 {
+    color: #ec0f0f;
+  }
+  .home-text06 {
+    color: #bd9b40;
+  }
+  .home-text07 {
+    color: #fafd43;
+  }
+  .home-text08 {
+    color: #3def3a;
+  }
+  .home-text09 {
+    color: #38f7f4;
+  }
+  .home-text10 {
+    color: #113be6;
+  }
+  .home-text11 {
+    color: #2b2de8;
+  }
+  .home-text12 {
+    color: #ad21c7;
+  }
+}
